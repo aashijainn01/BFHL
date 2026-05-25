@@ -45,9 +45,7 @@ public class bfhlController {
     }
 
     @GetMapping
-    public Map<String, Object> getOperationCode() {
-        Map<String, Object> response = new LinkedHashMap<>();
-        response.put("operation_code", 1);
-        return response;
+    public String testApi() {
+        return "BFHL API is running successfully";
     }
 }
