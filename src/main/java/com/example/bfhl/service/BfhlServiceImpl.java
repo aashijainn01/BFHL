@@ -25,6 +25,7 @@ public class BfhlServiceImpl implements BfhlService {
             response.setOdd_numbers(new ArrayList<>());
             response.setAlphabets(new ArrayList<>());
             response.setSpecial_characters(new ArrayList<>());
+            response.setSepcial_characters(new ArrayList<>());
             response.setSum("0");
             response.setConcat_string("");
             return response;
@@ -91,6 +92,7 @@ public class BfhlServiceImpl implements BfhlService {
         response.setOdd_numbers(oddNumbers);
         response.setAlphabets(alphabets);
         response.setSpecial_characters(specialCharacters);
+        response.setSepcial_characters(specialCharacters);
         response.setSum(String.valueOf(sum));
         response.setConcat_string(alternating.toString());
 

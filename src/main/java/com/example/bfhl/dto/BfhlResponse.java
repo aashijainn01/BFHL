@@ -12,6 +12,7 @@ public class BfhlResponse {
     private List<String> odd_numbers;
     private List<String> alphabets;
     private List<String> special_characters;
+    private List<String> sepcial_characters;
     private String sum;
     private String concat_string;
 
@@ -78,6 +79,14 @@ public class BfhlResponse {
 
     public void setSpecial_characters(List<String> special_characters) {
         this.special_characters = special_characters;
+    }
+
+    public List<String> getSepcial_characters() {
+        return sepcial_characters;
+    }
+
+    public void setSepcial_characters(List<String> sepcial_characters) {
+        this.sepcial_characters = sepcial_characters;
     }
 
     public String getSum() {
