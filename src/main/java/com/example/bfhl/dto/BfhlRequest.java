@@ -1,8 +1,8 @@
-package com.example.bfhl.model;
+package com.example.bfhl.dto;
 
 import java.util.List;
 
-public class RequestData {
+public class BfhlRequest {
 
     private List<String> data;
 
